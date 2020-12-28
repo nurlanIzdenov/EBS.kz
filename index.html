@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <title>
+      Graco Banlow Gespasa - Решения в сфере АЗС для вашего предприятия
+    </title>
+  </head>
+  <body>
+    <header>
+      <div class="uk-container" id="header-container">
+        <nav class="uk-navbar-container" uk-navbar id="top-nav">
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+              <li class="uk-active">
+                <a href="mailto:info@ebs.kz"
+                  ><span
+                    class="uk-icon uk-margin-small-right"
+                    uk-icon="icon: mail"
+                  ></span
+                  >info@ebs.kz</a
+                >
+              </li>
+              <li class="uk-active">
+                <a href="https://go.2gis.com/a0id7"
+                  ><span
+                    class="uk-icon uk-margin-small-right"
+                    uk-icon="icon: location"
+                  ></span
+                  >Сейфуллина 458/1 офис 519</a
+                >
+              </li>
+              <li class="uk-active">
+                <a href="tel:+77018065553"
+                  ><span
+                    class="uk-icon uk-margin-small-right"
+                    uk-icon="icon: receiver"
+                  ></span
+                  >+7 (701) 806 55 53</a
+                >
+              </li>
+            </ul>
+            <div class="uk-navbar-item">
+              <a
+                class="uk-button uk-button-default"
+                href="#modal-sections"
+                uk-toggle
+                >Обратный звонок</a
+              >
+              <div id="modal-sections" uk-modal>
+                <div class="uk-modal-dialog">
+                  <button
+                    class="uk-modal-close-default"
+                    type="button"
+                    uk-close
+                  ></button>
+                  <div class="uk-modal-header">
+                    <h2 class="uk-modal-title">Обратный Звонок</h2>
+                    <p>Остались вопросы? Мы перезвоним вам и поможем!</p>
+                    <p class="uk-text-right"></p>
+                  </div>
+
+                  <div class="uk-modal-body">
+                    <form class="uk-form-horizontal uk-margin-large" action="return-call.php" method="POST">
+                      <div class="uk-margin">
+                        <label class="uk-form-label" for="form-horizontal-text"
+                          >Компания</label
+                        >
+                        <div class="uk-form-controls">
+                          <input
+                            class="uk-input"
+                            id="form-horizontal-text"
+                            type="text"
+                            placeholder="Введите название компании" name="company"
+                          />
+                        </div>
+                      </div>
+                      <div class="uk-margin">
+                        <label class="uk-form-label" for="form-horizontal-text"
+                          >Имя и Фамилия</label
+                        >
+                        <div class="uk-form-controls">
+                          <input
+                            class="uk-input"
+                            id="form-horizontal-text"
+                            type="text"
+                            placeholder="Введите ваши имя и фамилию" name="name"
+                          />
+                        </div>
+                      </div>
+                      <div class="uk-margin">
+                        <label class="uk-form-label" for="form-horizontal-text" name="phone"
+                          >Телефон</label
+                        >
+                        <div class="uk-form-controls">
+                          <input
+                            class="uk-input"
+                            id="form-horizontal-text"
+                            type="text"
+                            placeholder="+ 7 (xxx) xxxx xxx"
+                          />
+                        </div>
+                      </div>
+                      <div class="uk-modal-footer uk-text-right">
+                        <button
+                          class="uk-button uk-button-default uk-modal-close"
+                          type="button"
+                        >
+                          Отмена
+                        </button>
+                        <button class="uk-button uk-button-primary" type="submit" name="submit" value="submit">
+                          Отправить
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav class="uk-navbar-container" uk-navbar>
+          <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="#">Graco Banlow Gespasa</a>
+          </div>
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+              <li class="uk-active">
+                <a href="equipment.html">Оборудование</a>
+              </li>
+              <li class="uk-active">
+                <a href="solutions.html">Готовые решения</a>
+              </li>
+              <li class="uk-active"><a href="company.html">Компания</a></li>
+              <li class="uk-active"><a href="company.html">Информация</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div uk-slideshow="autoplay: true">
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+            <ul class="uk-slideshow-items">
+              <li>
+                <img src="img/hero_1.jpg" alt="" uk-cover />
+                <div class="uk-child-width-1-2 uk-inline uk-margin uk-position-center-left uk-margin-left"> 
+                        <div class="uk-card uk-card-primary uk-card-hover uk-card-small uk-card-body">
+                            <h3 class="uk-card-title">Оборудование для мини АЗС</h3>
+                            <p class="uk-text-small" >Оборудование для перекачки и учёта ГСМ, мини АЗС, насосное и сервисное оборудование для розлива и замены эксплуатационных жидкостей.</p>
+                            <a class="uk-button uk-button-default uk-button-small" href="#">Подробнее</a>
+                        </div>
+                    </div>
+              </li>
+              <li>
+                <img src="img/hero_2.jpg" alt="" uk-cover />
+                <div class="uk-child-width-1-2 uk-margin uk-position-small uk-position-center-right"> 
+                    <div class="uk-card uk-card-primary uk-card-hover uk-card-small uk-card-body">
+                        <h3 class="uk-card-title">Оборудование для мини АЗС</h3>
+                        <p class="uk-text-small" >Оборудование для перекачки и учёта ГСМ, мини АЗС, насосное и сервисное оборудование для розлива и замены эксплуатационных жидкостей.</p>
+                        <a class="uk-button uk-button-default uk-button-small" href="#">Подробнее</a>
+                    </div>
+                </div>
+              </li>
+            </ul>
+            <a
+              class="uk-position-center-left uk-position-small uk-hidden-hover"
+              href="#"
+              uk-slidenav-previous
+              uk-slideshow-item="previous"
+            ></a>
+            <a
+              class="uk-position-center-right uk-position-small uk-hidden-hover"
+              href="#"
+              uk-slidenav-next
+              uk-slideshow-item="next"
+            ></a>
+          </div>
+          <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        </div>
+      </div>
+    </header>
+
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </body>
+</html>
